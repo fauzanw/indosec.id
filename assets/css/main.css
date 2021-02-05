@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Merriweather-Black";
+    src: url('../fonts/Merriweather-Black.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather-Bold";
+    src: url('../fonts/Merriweather-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather-Light";
+    src: url('../fonts/Merriweather-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Merriweather-Regular";
+    src: url('../fonts/Merriweather-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url('../fonts/Poppins-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url('../fonts/Poppins-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url('../fonts/Poppins-Regular.ttf') format("truetype");
+}
+
+.hero-landing {
+    background-color: #E9EBF1;
+    height: 605px;
+}
+
+.hero-landing h1#title {
+    line-height: 75px; 
+}
+
+.btn {
+    @apply font-pm py-3 px-8;
+    border-radius: 9px;
+}
+
+.btn-primary {
+    @apply bg-primary text-white outline-none transition duration-500 ease-in-out;
+}
+
+.btn-primary:hover {
+    @apply bg-primary2;
+}
+
+.btn-primary.with-shadow {
+    box-shadow: 7px 9px 15px rgba(157, 91, 254, 0.65);
+}
+
+.btn-primary:hover.with-shadow {
+    box-shadow: 7px 9px 15px rgba(130, 45, 255, 0.65);
+}
+
+.nav-item {
+    @apply pr-10 flex content-center items-center justify-center;
+}
+
+.nav-link {
+    @apply text-dark-200 text-lg font-pr;
+}
+
+.nav-item:hover .nav-link,
+.nav-item.active .nav-link {
+    @apply text-primary font-pb;
+}
+
+@media (max-width: 768px) {
+    .logo-and-toggle {
+        @apply w-full;
+    }
+}
+
+.logo-and-toggle #toggle {
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg"><path d="m2.61 0h22.431c1.441 0 2.61 1.168 2.61 2.61s-1.168 2.61-2.61 2.61h-22.431c-1.441 0-2.61-1.168-2.61-2.61s1.168-2.61 2.61-2.61z"/><path d="m2.61 9.39h22.431c1.441 0 2.61 1.168 2.61 2.61s-1.168 2.61-2.61 2.61h-22.431c-1.441 0-2.61-1.168-2.61-2.61s1.168-2.61 2.61-2.61z"/><path d="m2.61 18.781h22.431c1.441 0 2.61 1.168 2.61 2.61s-1.168 2.61-2.61 2.61h-22.431c-1.441 0-2.61-1.168-2.61-2.61s1.168-2.61 2.61-2.61z"/></svg>');
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+@media (max-width: 640px) {
+    .info-icon {
+        @apply w-9 h-9;
+    }
+
+    .hero-landing h1#title {
+        @apply text-4xl;
+        line-height: 55px;
+    }
+
+    .hero-landing p#description {
+        @apply text-xl;
+    }
+}
+
+section#about h1.title {
+    @apply text-dark;
+    line-height: 44px;
+}
+
+section#about p.description {
+    @apply text-dark-200;
+    line-height: 30px;
+}
+
+section#motto .motto-item {
+    @apply w-80 h-auto border border-dark-100 text-center;
+    border-radius: 15px;
+}
+
+section#motto .motto-item:hover {
+    @apply border-dark-300;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}

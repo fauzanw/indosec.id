@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndoSec</title>
+    <link rel="stylesheet" href="assets/css/raw.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <div class="container mx-auto px-12 py-7">
+        <nav class="flex md:flex-row md:gap-14">
+            <div class="flex flex-row justify-between items-center logo-and-toggle">
+                <img src="assets/img/logo.png" class="w-12 h-12">
+                <div id="toggle" class="md:hidden w-6 h-6"></div>
+            </div>
+            <ul class="hidden md:flex md:flex-row" id="mobileMenu">
+                <li class="pr-10 nav-item active">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="pr-10 nav-item">
+                    <a href="" class="nav-link">Tentang</a>
+                </li>
+                <li class="pr-10 nav-item">
+                    <a href="" class="nav-link">Motto</a>
+                </li>
+                <li class="pr-10 nav-item">
+                    <a href="" class="nav-link">Diskusi</a>
+                </li>
+                <li class="pr-10 nav-item">
+                    <a href="" class="nav-link">Data Center</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Landing Section -->
+    <section class="hero-landing text-center flex content-center items-center justify-center">
+        <div>
+            <div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="50">
+                <h1 id="title" class="text-dark sm:text-5xl font-pb">Sharing Knowledge <br> About Technology</h1>
+                <p id="description" class="text-dark-200 sm:text-2xl mt-5 font-pr">Diskusi dan pecahkan masalah <br> bersama member lain</p>
+                <button class="btn btn-primary mt-12 with-shadow">Kenali Kami</button>
+            </div>
+            <div class="mt-16 grid grid-cols-3" data-aos="fade-up" data-aos-duration="1500">
+                <div class="flex flex-row gap-4 justify-center">
+                    <img class="md:w-12 md:h-12 info-icon" src="assets/img/members.svg">
+                    <div class="text-left">
+                        <h1 class="md:text-lg text-base font-pb">20,000</h1>
+                        <h3 class="md:text-sm text-xs text-dark-200 font-pr">Members</h3>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-4 justify-center">
+                    <img class="md:w-12 md:h-12 info-icon" src="assets/img/regional.svg">
+                    <div class="text-left">
+                        <h1 class="md:text-lg text-base font-pb">25</h1>
+                        <h3 class="md:text-sm text-xs text-dark-200 font-pr">Regions</h3>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-4 justify-center">
+                    <img class="md:w-12 md:h-12 info-icon" src="assets/img/discussion.svg">
+                    <div class="text-left">
+                            <h1 class="md:text-lg text-base font-pb">700k+</h1>
+                        <h3 class="md:text-sm text-xs text-dark-200 font-pr">Discussion Topics</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Landing Section -->
+
+    <!-- Start Community Partner Section -->
+    <section class="px-3 text-center mt-11" id="partner">
+        <h3 class="font-pm" data-aos="fade-up">Beberapa <span class="font-pb">Community Partner</span> Kami</h3>
+        <div class="flex flex-row gap-10 mt-9 justify-center">
+            <img src="assets/img/act.png" alt="Anon Cyber Team" data-aos="fade-up">
+            <img src="assets/img/hs.png" alt="Haxor Security" data-aos="fade-up" data-aos-delay="500">
+            <img src="assets/img/gt72.png" alt="Garuda Tersakti72" data-aos="fade-up" data-aos-delay="1000">
+            <img src="assets/img/exid.png" alt="ExploiterID" data-aos="fade-up" data-aos-delay="1500">
+        </div>
+    </section>
+    <!-- End Community Partner Section -->
+
+    <!-- Start About Section -->
+    <section class="text-center mt-28" id="about">
+        <div class="flex flex-row justify-center items-center px-60">
+            <div class="col-span-6 text-left" data-aos="fade-up">
+                <h1 class="text-4xl title font-mrwbold">Apa itu IndoSec?</h1>
+                <p class="text-xl description w-11/12 mt-4 font-pr">IndoSec adalah sebuah komunitas yang mewadahi berbagai latar berlakang, berdiskusi tentang web development, web security, Dan bidang lainnya didunia IT</p>
+            </div>
+            <img src="assets/img/what-is.svg" class="col-span-6" alt="What is?" data-aos="zoom-in-left" data-aos-delay="500">
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Motto Section -->
+    <section class="text-center mt-28" id="motto">
+        <h1 class="text-center text-4xl font-mrwbold text-dark">Motto Kami</h1>
+        <div class="mt-16">
+            <div class="flex flex-row gap-10 px-60">
+                <div class="motto-item" data-aos="zoom-out-down">
+                    <center class="py-10">
+                        <img src="assets/img/motto/Create.svg" alt="">
+                        <h1 class="mt-8 text-xl font-mrwbold">Create</h1>
+                        <p class="mt-2.5 font-pr w-9/12 text-dark-200 text-sm">Membuat dan menciptakan sistem yang dapat membantu</p>
+                    </center>
+                </div>
+                <div class="motto-item" data-aos="zoom-out-down" data-aos-delay="500">
+                    <center class="py-10">
+                        <img src="assets/img/motto/Secure.svg" alt="">
+                        <h1 class="mt-8 text-xl font-mrwbold">Secure</h1>
+                        <p class="mt-2.5 font-pr w-9/12 text-dark-200 text-sm">Mengamankan sistem dan mencegah adanya serangan</p>
+                    </center>
+                </div>
+                <div class="motto-item" data-aos="zoom-out-down" data-aos-delay="1000">
+                    <center class="py-10">
+                        <img src="assets/img/motto/Exploit.svg" alt="">
+                        <h1 class="mt-8 text-xl font-mrwbold">Exploit</h1>
+                        <p class="mt-2.5 font-pr w-4/5 text-dark-200 text-sm">Mengexploitasi celah yang ada untuk dipelajari dan diperbaiki</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Motto Section -->
+
+    <!-- Start Discussion Section -->
+    <section id="discussion" class="text-left mt-28">
+        <div class="flex flex-row gap-10 px-60">
+            <img src="assets/img/discussion-illustration.svg" data-aos="zoom-in-right" data-aos-delay="500" alt="Discussion">
+            <div class="self-center" data-aos="fade-up">
+                <h1 class="text-dark sm:text-5xl font-mrwbold">Diskusi Bersama</h1>
+                <p class="text-xl description w-11/12 mt-4 font-pr text-dark-200">Temukan cara untuk menyelesaikan masalahmu dalam bidang tekologi, diskusikan dan raih keberhasilan bersama.</p>
+                <button class="btn btn-primary mt-10 uppercase">Bergabung</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Discussion Section -->
+
+    <!-- Start Data Center Section -->
+    <section id="datacenter" class="text-left mt-28">
+        <div class="flex flex-row gap-10 px-60">
+            <div class="self-center" data-aos="fade-up">
+                <h1 class="text-dark sm:text-5xl font-mrwbold w-72">IndoSec Data Center</h1>
+                <p class="text-xl description w-10/12 mt-4 font-pr text-dark-200">IndoSec Data Center adalah sebuh platform yang dimana pusatnya semua layanan indosec kedepannya</p>
+                <button class="btn btn-primary mt-10 uppercase">Bawa saya kesana!</button>
+            </div>
+            <img src="assets/img/data-center.svg" data-aos="zoom-in-left" data-aos-delay="500" alt="Discussion">
+        </div>
+    </section>
+    <!-- End Data Center Section -->
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary mt-28 px-80 py-11 w-full">
+        <div class="flex flex-row justify-between gap-10">
+            <div>
+                <img src="assets/img/logo.png" width="80" height="80" alt="">
+                <p class="mt-16 text-dark-200">©2020 IndoSec by <span class="font-pb text-primary">Fauzan W</span></p>
+                <p class="mt-3 text-dark-200">
+                    <a href="">Terms of Service</a> |
+                    <a href="">Privacy Policy</a>
+                </p>
+            </div>
+            <div class="flex flex-row gap-4 items-center">
+                <div>
+                    <div class="flex flex-row items-center gap-2">
+                        <img src="assets/img/icons/email.svg" alt="">
+                        <p class="text-dark-200">support@indosec.id</p>
+                    </div>
+                    <div class="flex flex-row items-center gap-2 mt-6">
+                        <img src="assets/img/icons/instagram.svg" alt="">
+                        <p class="text-dark-200">@_indosec_</p>
+                    </div>
+                    <div class="flex flex-row items-center gap-2 mt-6">
+                        <img src="assets/img/icons/facebook.svg" alt="">
+                        <p class="text-dark-200">@IndoSecOfficial</p>
+                    </div>
+                </div>
+                <div class="ml-12">
+                    <h3 class="font-mrwbold text-2xl text-dark">Section</h3>
+                    <p class="mt-6 text-dark-200"><a href="">Tentang</a></p>
+                    <p class="mt-6 text-dark-200"><a href="">Motto</a></p>
+                    <p class="mt-6 text-dark-200"><a href="">Diskusi</a></p>
+                    <p class="mt-6 text-dark-200"><a href="">Data Center</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
