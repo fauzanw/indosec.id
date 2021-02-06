@@ -68,11 +68,11 @@
 }
 
 .nav-item {
-    @apply pr-10 flex content-center items-center justify-center;
+    @apply items-center justify-center md:pr-10 md:flex md:content-center;
 }
 
 .nav-link {
-    @apply text-dark-200 text-lg font-pr;
+    @apply block text-dark-200 font-pr md:text-lg;
 }
 
 .nav-item:hover .nav-link,

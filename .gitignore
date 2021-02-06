@@ -2,3 +2,4 @@ assets/css/raw.css
 node_modules/
 yarn.lock
 ._index.html
+pnpm-lock.yaml
